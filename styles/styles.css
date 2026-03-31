@@ -150,3 +150,45 @@ footer {
     width: 90%;
   }
 }
+
+
+/* Join Form */
+.join-form {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+.join-form form {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.join-form label {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.join-form input,
+.join-form select,
+.join-form textarea {
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.join-form button {
+  margin-top: 20px;
+  padding: 10px;
+  background: #00adb5;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.join-form button:hover {
+  background: #0077b6;
+}
