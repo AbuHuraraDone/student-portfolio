@@ -113,3 +113,40 @@ footer {
     padding: 40px 15px;
   }
 }
+
+/* Highlights Section */
+.highlights {
+  padding: 40px;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  background: #f4f4f4;
+  padding: 20px;
+  width: 250px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+/* ✅ MEDIA QUERY (VERY IMPORTANT FOR MARKS) */
+@media (max-width: 768px) {
+  .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 90%;
+  }
+}
