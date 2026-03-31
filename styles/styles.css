@@ -150,3 +150,116 @@ footer {
     width: 90%;
   }
 }
+
+
+/* Join Form */
+.join-form {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+.join-form form {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.join-form label {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.join-form input,
+.join-form select,
+.join-form textarea {
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.join-form button {
+  margin-top: 20px;
+  padding: 10px;
+  background: #00adb5;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.join-form button:hover {
+  background: #0077b6;
+}
+
+
+/* ===== Clubs Page Styling ===== */
+
+.clubs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px;
+}
+
+/* Club Card */
+.club-card {
+  background: #f4f4f4;
+  width: 40%;
+  padding: 25px;
+  border-radius: 12px;
+  text-align: center;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.club-card h3 {
+  color: #0077b6;
+  margin-bottom: 10px;
+}
+
+.club-card p {
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Hover Effect */
+.club-card:hover {
+  transform: translateY(-8px) scale(1.03);
+  background: #eaf6f6;
+}
+
+/* Optional Join Button inside card */
+.club-card .btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 8px 15px;
+  background: #00adb5;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.club-card .btn:hover {
+  background: #0077b6;
+}
+
+/* ===== Responsive Design ===== */
+
+@media (max-width: 768px) {
+  .club-card {
+    width: 85%;
+  }
+}
+
+@media (max-width: 480px) {
+  .clubs {
+    padding: 20px;
+  }
+
+  .club-card {
+    width: 100%;
+  }
+}
