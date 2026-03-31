@@ -113,3 +113,76 @@ footer {
     padding: 40px 15px;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Events Page */
+.events {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 30px;
+}
+
+.events .event-card {
+  background: #f4f4f4;
+  padding: 20px;
+  width: 45%;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.events .event-card:hover {
+  transform: scale(1.03);
+  background: #e0e0e0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .events .event-card {
+    width: 90%;
+  }
+}
